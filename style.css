@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/Assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.navbar a {
+    color: #fff;
+
+}
+
+.first_section h1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 45px;
+}
+
+.container {
+    display: flex;
+}
+
+.descriptions p {
+    font-size: 24px;
+    color: #fff;
+    margin: 28px;
+    padding: 10px;
+}
+
+.image_sections img {
+    width: 860px;
+    height: 590px;
+    border-radius: 30px;
+}
